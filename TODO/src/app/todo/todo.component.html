@@ -1,0 +1,21 @@
+<div class="container">
+    <form action="">
+      <h1>Add the Task</h1>
+      <div class="grp">
+         <label for="" class="lbl"></label>
+         <input type="text" class="cntrl" #task placeholder="Enter your task here">
+      </div>
+      <div>
+      <input type="button" class="btn" value="+" (click)="addTask(task.value)" >
+      </div>
+    </form>
+</div>      
+
+<div class="container2">
+    <form class="containerf2" action="">
+      <h1 class="containerfh2">Your Tasks : </h1><br>
+        <ul *ngFor="let item of list" class="lst">
+          <li>{{item.name}}<button class="rmv" (click)="removeTask(item.id)">-</button></li>
+        </ul>
+    </form>
+</div>      

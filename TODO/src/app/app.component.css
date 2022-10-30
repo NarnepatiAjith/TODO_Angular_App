@@ -1,0 +1,23 @@
+.h2{
+    text-align: center;
+    margin:100px;
+    border: 3px solid rgb(38, 35, 66);
+    padding: 2%;
+    color: rgb(36, 18, 96);
+    box-shadow: 0 8px 16px rgb(7, 100, 41);
+}
+
+.btn{
+     font-size: x-large;
+     border: 1px solid lightgreen;
+     color: rgb(2, 33, 2);
+     cursor: pointer;
+     margin-left: 45%;
+     background-color: lightgreen;
+     box-shadow: 0 8px 16px rgb(54, 52, 52);
+}
+
+.bdy{
+    background-color: yellow
+};
+
